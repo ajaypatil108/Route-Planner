@@ -1,11 +1,11 @@
 # A* Route Planner Project
 
 Route Planner was developed as a final project for Udacity's C++ Developer nano-degree program. 
-The route planner uses A* path search to find shortest distance to the goal. The project used OSM map data. 
-I learned how lane segments, intersections and other map features are constructed from individual nodes. 
+It uses A* path search to find shortest distance to the goal. The project uses OSM map data. 
+I also gained additional knowledge of how lane segments, intersections and other map features are constructed from individual nodes. 
 
-When executed, the program takes input co-ordinates (x,y) for start location and the goal.
-Consider a square with (0,0) being bottom left and (100,100) being top right. Enter any combinations of start/goal points within this limit. Closest node available to user input is selected for path search.  
+When executed, the program takes input co-ordinates (x,y) for start location and destination.
+Consider a square with (0,0) being bottom left and (100,100) being top right. Enter any combinations of start/goal points within this limit. The code uses closest node available to user input for path search.  
 
 A map with shortest path rendered is then presented to the user.
 
