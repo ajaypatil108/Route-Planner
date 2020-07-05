@@ -9,7 +9,7 @@ Consider a square with (0,0) being bottom left and (100,100) being top right. En
 
 A map with shortest path rendered is then presented to the user.
 
-<img src="map.png" width="600" height="450" />
+<img src="map2.png"/>
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
