@@ -2,13 +2,14 @@
 
 Route Planner was developed as a final project for Udacity's C++ Developer nano-degree program. 
 It uses A* path search to find shortest distance to the goal. The project uses OSM map data. 
-I also gained additional knowledge of how lane segments, intersections and other map features are constructed from individual nodes. 
+Apart from coding the algorithm, I also gained in-depth knowledge of how lane segments, intersections and other map features are constructed from individual nodes. 
 
 When executed, the program takes input co-ordinates (x,y) for start location and destination.
 Consider a square with (0,0) being bottom left and (100,100) being top right. Enter any combinations of start/goal points within this limit. The code uses closest node available to user input for path search.  
 
 A map with shortest path rendered is then presented to the user.
 
+Here's an example with (10,10) as start point and (50, 50) as goal.
 <img src="map2.png"/>
 
 ## Dependencies for Running Locally
@@ -24,6 +25,7 @@ A map with shortest path rendered is then presented to the user.
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
+  * The steps for Linux should have following command from Debug folder : sudo make install
   * This library must be built in a place where CMake `find_package` will be able to find it
 
 ## Compiling and Running
