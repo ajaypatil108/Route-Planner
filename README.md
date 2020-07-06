@@ -12,6 +12,8 @@ A map with shortest path rendered is then presented to the user.
 Here's an example with (10,10) as start point and (50, 50) as goal.
 <img src="map2.png"/>
 
+You can download map of areas you know and provide that .osm file as an argument to this program! Detailed steps for this are documented in the execution section below.  
+
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
@@ -25,7 +27,7 @@ Here's an example with (10,10) as start point and (50, 50) as goal.
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * IO2D
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
-  * The steps for Linux should have following command from Debug folder : sudo make install
+  * The steps for Linux should have following additional command from Debug folder : sudo make install
   * This library must be built in a place where CMake `find_package` will be able to find it
 
 ## Compiling and Running
@@ -49,6 +51,7 @@ Or to specify a map file:
 ```
 ./OSM_A_star_search -f ../<your_osm_file.osm>
 ```
+ OSM map files for any area can be downloaded on Open Street Map [website](https://www.openstreetmap.org/export#map=15/37.4060/-122.1039). Search for locations and export!
 
 ## Testing
 
